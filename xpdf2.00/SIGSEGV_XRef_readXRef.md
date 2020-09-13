@@ -6,7 +6,7 @@ xpdf-2.00
 ## Discoverers
 Qian Lv and Rihan Da
 ## Description
-Xpdf 2.00 has a heap-buffer-overflow  in the function XRef::readXRef(unsigned int*) located at XRef.cc:284.
+Xpdf 2.00 has a SIGSEGV  in the function XRef::readXRef(unsigned int*) located at XRef.cc:284.
 ## Vulnerability details
 ```
 ASAN:SIGSEGV
